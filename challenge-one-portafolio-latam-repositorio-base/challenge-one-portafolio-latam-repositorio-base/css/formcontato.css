@@ -62,8 +62,32 @@
     -moz-border-radius: .2rem;
     -ms-border-radius: .2rem;
     -o-border-radius: .2rem;
+    /* border-style: solid; */
+    
 }    
 .formcontato__botao:hover{
     background-color: darkblue;
     text-shadow: 0 0 .5rem white;
 }
+.formcontato__submit {
+    display: flex;
+    align-items:flex-end;
+    /* border-style: solid; */
+    width: 100%;
+    height: 5rem;
+   
+}
+
+.warning{
+    width: 30rem;
+    height: 4rem;
+    text-align: center;
+    color: indianred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    /* border-style: solid; */
+}
+
+

@@ -131,7 +131,7 @@ section.academic{
 /* experiencia*/
 
 section.experience{
-    border-style: solid;
+    /* border-style: solid; */
     width: 100%;
     display: flex;
     align-items: center;
