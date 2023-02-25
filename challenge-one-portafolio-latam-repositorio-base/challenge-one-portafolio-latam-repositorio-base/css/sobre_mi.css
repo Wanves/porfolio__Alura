@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    background-color: #EAF2FD;
+    color: #464646;
+}
+.about__container{
+    /* border-style: solid; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.about__title{
+    /* border-style: solid; */
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.about__paragraph{
+    /* border-style: solid; */
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.about__img{
+    
+    /* border-style: solid; */
+    width: 7rem;
+}
+

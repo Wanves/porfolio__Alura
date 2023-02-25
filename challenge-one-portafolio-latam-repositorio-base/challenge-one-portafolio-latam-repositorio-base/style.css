@@ -1,0 +1,204 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
+coloque nas sessões indicadas*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+
+Lo que es el BEM?
+
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
+desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
+con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
+
+Enlace de la documentación oficial!
+https://en.bem.info/methodology/quick-start/*/
+
+.tudo{
+    /* background-color:rgb(175, 235, 255); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    height: 313.75rem;
+    /* left: 0%;
+    right: 0%;
+    top: 0px; */
+}
+
+/*Sección Menu*/
+
+section.menu{
+    /* border-style: solid; */
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: .8rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*Sección Title*/
+
+section.title{
+    width: 90%;
+    /* border-style: solid; */
+    display: flex;
+    justify-content: center;
+}
+
+/*Sección About*/
+
+section.about{
+     /* border-style: solid; */
+     height: 25rem;
+     display: flex;
+     align-items: center;
+}
+
+/*Sección skills*/
+section.skills{
+    /* border-style: solid; */
+    color: #464646;
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/*Sección Hobbies*/
+
+section.hobbies{
+    background-color: ;
+    color: #464646;
+    width: 90%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+    /* border-style: solid; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EAF2FD;
+    color: #464646;
+}
+
+/* experiencia*/
+
+section.experience{
+    border-style: solid;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    color: #464646;
+}
+
+/*Contacto*/
+
+section.formcontato{
+    /* border-style: solid; */
+    border-color: blue;
+    width: 103%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAF2FD;
+}
+
+/*footeer*/
+
+section.footer{
+    border-style: solid;
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
