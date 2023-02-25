@@ -156,7 +156,8 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
-    border-style: solid;
+    /* border-style: solid; */
+    margin: 1.5rem;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?

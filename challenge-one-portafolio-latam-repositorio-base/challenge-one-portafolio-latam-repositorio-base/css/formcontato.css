@@ -1,7 +1,6 @@
 .formcontato__contacto{
     /* border-style: solid; */
     width: 90%;
-    height: 40rem;  
     display: flex;
 }
 .formcontato--esquerda{
@@ -45,4 +44,26 @@
 }
 .formcontato__textarea{
     padding: .5rem;
+}
+.formcontato__botao{
+    background-color: #2A7AE4;
+    border-radius: .2rem;
+    width: 15rem;
+    height: 4rem;
+    border-style: none;
+    color: white;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .3s;
+    cursor: pointer;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}    
+.formcontato__botao:hover{
+    background-color: darkblue;
+    text-shadow: 0 0 .5rem white;
 }
