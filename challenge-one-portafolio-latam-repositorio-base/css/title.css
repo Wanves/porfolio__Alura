@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title__div{
+    width: 100%;
+    /* border-style: solid; */
+    display: flex;
+    align-items: center;
+    color: #464646;
+    
+}
+.title__profile{
+    /*border-style: solid;
+    */margin-left: .5rem;
+    width: 17rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.title__container{
+    /* border-style: solid; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title__bio{
+    /* border-style: solid; */
+    width: 100%;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.title__network__item__a{
+    /* border-style: solid; */
+    color: #464646;
+}
+.title__subsection{
+    margin-top: 2rem;
+    font-weight: 300;
+}
+.title__network{
+    /* border-style: solid; */
+    width:100%;
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.title__network__item{
+    /* border-style: solid; */
+    min-width: 7rem;
+    
+}

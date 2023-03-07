@@ -1,0 +1,32 @@
+.academic__title{
+    /* border-style: solid; */
+    margin: 03rem 0 3rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #464646;
+}
+
+.academic__courses{
+    /* border-style: solid; */
+    width: 94%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.academic__courses__item__img{
+    /* border-style: solid; */
+    width: 25rem;
+    height: 18rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.academic__courses__item__title{
+    margin-top: .2rem;
+    font-size: 1.3rem;
+}
