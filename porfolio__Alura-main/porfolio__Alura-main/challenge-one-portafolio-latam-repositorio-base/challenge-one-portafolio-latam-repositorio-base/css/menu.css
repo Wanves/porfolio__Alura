@@ -1,0 +1,38 @@
+.menu__header{
+    /* border-style: solid; */
+    width: 20%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__header__img{
+    width: 1.5rem;
+    /* border-style: solid; */
+}
+.menu__nav{
+    /* border-style: solid; */
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.menu__list{
+    /* border-style: solid; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.menu__list__item__contacto{
+    font-weight: 700;
+    /* border-style: solid; */
+}
+
